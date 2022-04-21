@@ -1,0 +1,99 @@
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: azure;
+   
+}
+
+li {
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+}
+ h2 {
+     text-align: center;
+     padding: 5px;
+ }
+
+ #Nav {
+     margin: 5px;
+ }
+
+ .underline {
+     text-decoration: underline;
+ }
+
+ .Burger {
+    position: fixed;
+    right: 0;
+    top: 345;
+    margin: 5px;
+ }
+
+ .Cheddar {
+     position: fixed;
+     right: 300;
+     top: 165;
+     height: 170px
+     
+}
+
+.Dogs {
+    width: 250px;
+    right: 300;
+    top: 350px;
+    height: 150px;
+}
+
+
+ img {
+     position: fixed;
+     right: 0;
+     top: 170;
+     margin: 5px;
+ }
+
+ .Box {
+     width: 140px;
+     height: 140px;
+     text-align: center;
+     background-color: cornflowerblue;
+     animation-name: example;
+     animation-duration: 5s;
+     animation-delay: 2s;
+     animation-iteration-count: 1;
+     animation-direction: alternate reverse;
+     position: relative;
+ }
+
+
+ @keyframes example {
+     0% {background-color: blue; left: 0px; top: 0px;}
+     25% {background-color: purple; left: 200px; top: 0px}
+     50% {background-color: yellow; left: 200px; top: 200px;}
+     75% {background-color: orange; left: 0px; top: 200px;}
+     100% {background-color: crimson: left: 0px; top: 0px;}
+ }
+
+ .Menu {
+     
+     width: 140px;
+     height: 140px;
+     background-color: grey;
+     text-align: center;
+     animation-name: second;
+     animation-duration: 5s;
+     animation-delay: 2.5s;
+     animation-iteration-count: 1;
+     animation-direction: reverse;
+     position: relative;
+ }
+
+ @keyframes second {
+    0% {background-color: blue; left: 0px; top: 0px;}
+    25% {background-color: purple; left: 200px; top: 0px}
+    50% {background-color: yellow; left: 200px; top: 200px;}
+    75% {background-color: orange; left: 0px; top: 200px;}
+    100% {background-color: crimson: left: 0px; top: 0px;}
+ }
