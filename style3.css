@@ -1,0 +1,34 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: azure;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: outset;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+li {
+    display: inline;
+}
+
+
+p {
+    text-align: center;
+}

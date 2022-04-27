@@ -1,0 +1,22 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+}
+
+h1 {
+    text-align: center;
+    color:cornflowerblue
+
+}
+
+iframe {
+    position: absolute;
+    bottom: 0;
+}
+
+li {
+    display: inline;
+
+}
+
